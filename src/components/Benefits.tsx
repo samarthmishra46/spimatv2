@@ -10,10 +10,6 @@ const benefits: Benefit[] = [
   {
     title: "Immediate Back Support",
     description: "Experience precise orthopedic alignment that reduces pressure on the lower back, hips and shoulders from the very first night.",
-    whyMatters: [
-      "Back pain isn't caused by age — it's caused by poor posture during sleep.",
-      "SpineMat keeps your spine in perfect position, helping your body recover naturally."
-    ]
   },
   {
     title: "Zero Motion Transfer",
@@ -61,8 +57,12 @@ export default function Benefits() {
               className="group bg-white rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-blue-200"
             >
               <div className="mb-6">
-                <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-slate-100 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                  <p className="text-gray-500 font-medium">GIF Animation</p>
+                <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-slate-100 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+                  <img 
+                    src="https://media.tenor.com/UAJvWbnuVbAAAAAi/sweet-dreams-sleep-good.gif" 
+                    alt={benefit.title}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
 

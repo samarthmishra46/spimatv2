@@ -48,7 +48,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="mt-16 relative">
+        {/* <div className="mt-16 relative">
           <div className="aspect-video bg-gradient-to-br from-blue-100 to-slate-200 rounded-3xl shadow-2xl overflow-hidden max-w-5xl mx-auto border-8 border-white">
             <div className="w-full h-full flex items-center justify-center">
               <div className="text-center p-8">
@@ -59,7 +59,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

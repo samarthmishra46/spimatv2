@@ -10,14 +10,14 @@ export default function VideoSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl overflow-hidden shadow-2xl">
           <div className="aspect-video relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4 cursor-pointer hover:bg-white/30 transition-all">
-                  <div className="w-0 h-0 border-t-12 border-t-transparent border-l-20 border-l-white border-b-12 border-b-transparent ml-2"></div>
-                </div>
-                <p className="text-white/80 text-lg">Video Sales Letter (Govinda Video)</p>
-              </div>
-            </div>
+            <video
+              className="w-full h-full object-cover"
+              src="https://res.cloudinary.com/dqyizevct/video/upload/v1763996749/WhatsApp_Video_2025-11-24_at_12.59.18_PM_sp2zd1.mp4"
+              controls
+              playsInline
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
 

@@ -42,10 +42,10 @@ export default function Benefits() {
     <section className="py-16 sm:py-24 bg-gradient-to-b from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             6 Ways SpineMat <span className="text-blue-600">Changes Your Life</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
             Doctor-approved technology meets real-world results
           </p>
         </div>
@@ -70,12 +70,12 @@ export default function Benefits() {
                 <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">
                   {index + 1}
                 </span>
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-tight">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 leading-tight">
                   {benefit.title}
                 </h3>
               </div>
 
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-base text-gray-700 leading-relaxed mb-4">
                 {benefit.description}
               </p>
 

@@ -22,7 +22,7 @@ export default function VideoSection() {
         </div>
 
         <div className="text-center mt-10">
-          <p className="text-lg sm:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
+          <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
             Experience why thousands trust SpineMat for deeper sleep, faster recovery and complete back relief
             <span className="font-semibold text-blue-600"> approved by experts and loved by real customers.</span>
           </p>

@@ -24,13 +24,13 @@ export default function Hero() {
               'Trusted by Backs That Hurt.',
               ''
             ]}
-            className="text-4xl sm:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6"
+            className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6 whitespace-normal break-words"
             typingSpeed={35}
             pauseBetweenLines={600}
             cursor="|"
           />
 
-          <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 leading-relaxed mb-10 max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl text-gray-700 leading-relaxed mb-10 max-w-4xl mx-auto">
             Wake up pain-free with India's premium orthopedic mattress engineered to support your spine,
             improve sleep quality, eliminate morning stiffness and enjoy a <span className="font-semibold text-blue-600">bonus sofa-bed mattress</span> for your home.
           </p>

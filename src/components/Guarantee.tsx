@@ -23,16 +23,16 @@ export default function Guarantee() {
           <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6">
             <Shield className="w-10 h-10 text-white" />
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
             The SpineMat Guarantee
           </h2>
-          <p className="text-xl sm:text-2xl text-blue-100 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg text-blue-100 leading-relaxed max-w-4xl mx-auto">
             You're not buying a random mattress — you're buying <span className="font-semibold text-white">doctor-approved spine support</span> engineered for real relief.
           </p>
         </div>
 
         <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-2xl mb-10">
-          <p className="text-xl sm:text-2xl text-gray-800 leading-relaxed text-center mb-10">
+          <p className="text-base sm:text-lg text-gray-800 leading-relaxed text-center mb-10">
             If SpineMat doesn't improve your sleep, reduce your back pain, and make your mornings easier…
             <span className="block mt-4 font-semibold text-blue-600">
               you can reach out to our support team immediately.

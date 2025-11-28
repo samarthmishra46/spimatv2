@@ -20,20 +20,20 @@ export default function FinalCTA() {
             <Sparkles className="w-10 h-10 text-yellow-300" />
           </div>
 
-          <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             Your New Sleep<br />Begins Tonight
           </h2>
 
-          <p className="text-xl sm:text-2xl lg:text-3xl text-blue-100 leading-relaxed mb-8 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl text-blue-100 leading-relaxed mb-8 max-w-3xl mx-auto">
             Better mornings, zero back pain, deeper sleep —<br />
             all it takes is one decision.
           </p>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 sm:p-12 mb-10 border border-white/20">
-            <p className="text-2xl sm:text-3xl font-semibold text-white leading-relaxed mb-4">
+            <p className="text-lg sm:text-xl font-semibold text-white leading-relaxed mb-4">
               You're not upgrading your bed.
             </p>
-            <p className="text-xl sm:text-2xl text-blue-100">
+            <p className="text-base sm:text-lg text-blue-100">
               You're upgrading <span className="font-bold text-yellow-300">every morning of the next 10 years.</span>
             </p>
           </div>

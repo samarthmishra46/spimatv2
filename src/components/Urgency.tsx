@@ -46,19 +46,19 @@ export default function Urgency() {
             <span>Limited Time Offer</span>
           </div>
 
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
             Limited Stock. High Demand.<br />
             <span className="text-yellow-400">Don't Miss Your Chance.</span>
           </h2>
 
-          <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8">
+          <p className="text-sm sm:text-base text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8">
             Premium SpineMat mattresses are produced in small, controlled batches to maintain medical-grade orthopedic quality.
             <span className="block mt-4 font-semibold text-white">
               Because of this, only a limited number of free sofa-bed bonus units are available each month.
             </span>
           </p>
 
-          <p className="text-xl text-red-300 font-semibold">
+          <p className="text-base sm:text-lg text-red-300 font-semibold">
             Once this batch is claimed — the offer closes.
           </p>
         </div>

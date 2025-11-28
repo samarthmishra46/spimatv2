@@ -65,10 +65,10 @@ export default function SocialProof() {
             <span className="text-xl">⭐⭐⭐⭐⭐</span>
             <span>4.9/5 from 3,200+ customers</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
             Real People. <span className="text-blue-600">Real Relief.</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
             Thousands have transformed their sleep and eliminated back pain with SpineMat
           </p>
         </div>

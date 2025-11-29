@@ -1,6 +1,5 @@
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import Typewriter from './Typewriter';
 
 const videos = [
   "https://res.cloudinary.com/dqyizevct/video/upload/v1763996749/WhatsApp_Video_2025-11-24_at_12.59.18_PM_sp2zd1.mp4",
@@ -18,7 +17,7 @@ export default function Hero() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
-    }, 10000);
+    }, 60000);
 
     return () => clearInterval(timer);
   }, []);
@@ -42,19 +41,30 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 relative">
         <div className="text-center max-w-5xl mx-auto">
          
+          {/* Logo */}
+          <div className="mb-8">
+            <img 
+              src="https://spinemat.com/cdn/shop/files/Spinemat_Mattress_2.png?v=1637412760&width=300"
+              alt="SpineMat Logo"
+              className="mx-auto h-20 sm:h-24 lg:h-28 w-auto"
+            />
+          </div>
 
-          <Typewriter
-            lines={[
-              'Recommended by Doctors.',
-              'Chosen by Thousands.',
-              'Trusted by Backs That Hurt.',
-              ''
-            ]}
-            className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6 whitespace-normal break-words"
-            typingSpeed={35}
-            pauseBetweenLines={600}
-            cursor="|"
-          />
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6 whitespace-normal break-words">
+            <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+              INDIA'S NO.1 
+            </span>
+            <br className="hidden sm:block" />
+            <span className="text-gray-900"> ORTHOPEDIC MATTRESS</span>
+            <br />
+            <span className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold text-green-600">
+              + GET SOFA CUM BED MATTRESS FREE
+            </span>
+            <br />
+            <span className="text-base sm:text-xl md:text-2xl lg:text-3xl font-semibold text-yellow-600">
+              With 25 YEARS OF WARRANTY
+            </span>
+          </h1>
 
           <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl overflow-hidden shadow-2xl relative mb-6">
             <div className="aspect-video relative">

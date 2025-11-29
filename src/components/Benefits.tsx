@@ -35,7 +35,7 @@ const benefits: Benefit[] = [
 
 export default function Benefits() {
   const handleCTA = () => {
-    window.location.href = '#reserve-form';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfRHD2QhXCiPhY5Fsdy8fGV73i2yaDMJ6ybHq-OLGsn9lV-lw/viewform';
   };
 
   return (

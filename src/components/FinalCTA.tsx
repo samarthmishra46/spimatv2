@@ -2,7 +2,7 @@ import { ArrowRight, Moon, Heart, Sparkles } from 'lucide-react';
 
 export default function FinalCTA() {
   const handleCTA = () => {
-    window.location.href = '#reserve-form';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfRHD2QhXCiPhY5Fsdy8fGV73i2yaDMJ6ybHq-OLGsn9lV-lw/viewform';
   };
 
   return (

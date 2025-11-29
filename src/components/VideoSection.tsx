@@ -2,10 +2,10 @@ import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const images = [
-  "https://via.placeholder.com/1200x675/3B82F6/FFFFFF?text=SpineMat+Image+1",
-  "https://via.placeholder.com/1200x675/1E40AF/FFFFFF?text=SpineMat+Image+2",
-  "https://via.placeholder.com/1200x675/2563EB/FFFFFF?text=SpineMat+Image+3",
-  "https://via.placeholder.com/1200x675/1D4ED8/FFFFFF?text=SpineMat+Image+4",
+  "https://res.cloudinary.com/dqyizevct/image/upload/v1764404328/2_ypvk4d.jpg",
+  "https://res.cloudinary.com/dqyizevct/image/upload/v1764404768/4_zi6v1w.png",
+  "https://res.cloudinary.com/dqyizevct/image/upload/c_pad,w_4336,h_2133/v1764404501/3ff52fef-71d9-4da4-9141-03a2761ec337_pi1eeg.jpg", 
+  "https://res.cloudinary.com/dqyizevct/image/upload/v1764404778/5_lqkvjx.png",
 ];
 
 export default function VideoSection() {
